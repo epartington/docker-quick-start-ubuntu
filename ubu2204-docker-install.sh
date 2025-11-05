@@ -13,7 +13,9 @@ sudo apt-get update
 sudo apt-get install -y \
     ca-certificates \
     curl \
-    gnupg
+    gnupg \
+    iputils-ping \
+    dnsutils
 
 echo "--- [Step 2/5] Adding Docker's official GPG key... ---"
 # Create the keyring directory
