@@ -1,6 +1,6 @@
 # docker-quick-start-ubuntu
 
 
-chmod +x install_docker-ubu2204.sh
+chmod +x ubu2204-docker-install.sh
 
-./install_docker-ubu2204.sh
+./ubu2204-docker-install.sh
