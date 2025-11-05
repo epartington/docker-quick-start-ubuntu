@@ -46,6 +46,7 @@ echo "Adding current user ($USER) to the 'docker' group..."
 sudo groupadd docker || true
 # Add the current user to the group
 sudo usermod -aG docker $USER
+sudo newgrp docker
 
 echo ""
 echo "=================================================================="
@@ -56,4 +57,5 @@ echo "   for your new group membership to take effect."
 echo ""
 echo "After logging back in, you can verify the installation by running:"
 echo "   docker run hello-world"
+echo "   docker run -d -p 8080:80 --name my-ip-nginx nginxdemos/hello"
 echo "=================================================================="
