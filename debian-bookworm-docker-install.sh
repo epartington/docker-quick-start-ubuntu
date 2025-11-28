@@ -11,7 +11,7 @@ echo "Starting Docker Installation for Debian Trixie (Raspberry Pi)..."
 # 1. Update and Install Prerequisites
 echo "Updating apt package index..."
 apt-get update
-apt-get install -y ca-certificates curl gnupg lsb-release
+apt-get install -y ca-certificates curl gnupg lsb-release iputils-ping dnsutils
 
 # 2. Add Docker's Official GPG Key
 echo "Adding Docker GPG key..."
